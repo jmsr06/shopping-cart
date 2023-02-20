@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-fondo text-white m-20
+}
+
+.cart-button ~ input:checked ~ .cart {
+    height: 100%;
+    display: block;
+  }
